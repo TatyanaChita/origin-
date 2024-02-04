@@ -1,22 +1,22 @@
 ﻿
-Console.Write(FirstNumber: );
+Console.Write("FirstNumber: ");
 int FirstNumber = int.Parse(Console.ReadLine());
 
-Console.Write(SecondNumber: );
+Console.Write("SecondNumber: ");
 int SecondNumbe = int.Parse(Console.ReadLine());
 
 
 if (FirstNumber>SecondNumbe)
 {
-     Console.WriteLine(первое число больше);
+     Console.WriteLine("первое число больше");
 }
-if (FirstNumber<SecondNumbe)  
+else if (FirstNumber<SecondNumbe)  
 {
-Console.WriteLine(второе число больше);
+Console.WriteLine("второе число больше");
 } 
-if (FirstNumber=SecondNumbe)
+else
 {
-     Console.WriteLine(числа равны);
+     Console.WriteLine("числа равны");
 }
     
 
